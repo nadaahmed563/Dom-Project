@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.caption{
+    bottom: 20px;
+    border-radius: 30px;
+}
+.overlay{
+background-color: rgba(0,0,0,0.6);
+}
+h1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+}
+header{
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.item .img-item
+{
+    cursor: pointer;
+}
+
+.lightbox{
+    background-image: url(../images/work-1.jpg);
+    width: 50%;
+    height: 500px;
+}
+.dgree{
+    font-size: 6.4285714286rem;
+    font-weight: 800;
+}
+i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#close{
+    top: 10px;
+    right: 10px;
+}
